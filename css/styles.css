@@ -732,7 +732,8 @@ img {
 .modal-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-close:hover .modal-icon {
+.modal-close:hover .modal-icon,
+.modal-close:focus .modal-icon {
   fill: #2196f3;
 }
 .is-hidden {
@@ -847,7 +848,8 @@ img {
   background-position: center;
   background-position-x: 2px;
 }
-.modal-checkbox:hover + .police::before {
+.modal-checkbox:hover + .police::before,
+.modal-checkbox:focus + .police::before {
   border-color: #188ce8;
 }
 .visually-hidden {
